@@ -1,0 +1,5 @@
+altair
+streamlit
+streamlit_autorefresh
+pandas
+Pillow

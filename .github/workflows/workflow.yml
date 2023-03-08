@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install python version
       # use the pyenv-action version 7
-      # uses: gabrielfalcao/pyenv-action@v7
+        uses: gabrielfalcao/pyenv-action@v7
         with:
           default: 3.10 # pick 3.8.6 verion 
           command: pip install -U pip  # upgrade pip after installing python
